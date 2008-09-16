@@ -388,6 +388,15 @@
                             {/block:Caption}
                         </div>
                     {/block:Video}
+                    {block:HasTags}
+                        <ul class="tags">
+                            {block:Tags}
+                                <li>
+                                    <a href="{TagURL}">{Tag}</a>
+                                </li>
+                            {/block:Tags}
+                        </ul>
+                    {/block:HasTags}
                 </div>
             {/block:Posts}
 

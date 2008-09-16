@@ -1,0 +1,32 @@
+pre code {
+    display: block;
+    background: #f8f8f8;
+    border-left: 5px solid #ddd;
+    padding: 4px 8px;
+}
+
+ul.tags {
+    background: url(http://zone.barushev.net/files/tumblr/icons/tag_green.png) no-repeat left;
+    font-size: 11px;
+    height: 16px;
+    line-height: 16px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul.tags li {
+    display: inline;
+}
+
+ul.tags li a {
+    text-decoration: none;
+    color: #093;
+}
+
+ul.tags li:after {
+    content: ", ";
+}
+
+ul.tags li:last-child:after {
+    content: "";
+}
