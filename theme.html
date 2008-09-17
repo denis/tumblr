@@ -73,9 +73,9 @@
                 color:            {color:Description};
             }
 
-                        #description div#search {
-                                text-align: right;
-                        }
+            #description div#search {
+                    text-align: right;
+            }
 
             #description div a {
                 color:            {color:Description};
@@ -92,10 +92,10 @@
                 opacity: 0.5;
             }
 
-                        #searchresultcount {
-                            margin: 0 0 30px;
-                            text-align: center;
-                        }
+            #searchresultcount {
+                margin: 0 0 30px;
+                text-align: center;
+            }
 
             .post {
                 position:         relative;
@@ -288,12 +288,12 @@
 
             <div id="description">
                 <div>
-                                        <div id="search">
-                                            <form action="/search" method="get">
-                                                <input type="text" name="q" value="{SearchQuery}"/>
-                                                <input type="submit" value="Search"/>
-                                            </form>
-                                        </div>
+                    <div id="search">
+                        <form action="/search" method="get">
+                            <input type="text" name="q" value="{SearchQuery}"/>
+                            <input type="submit" value="Search"/>
+                        </form>
+                    </div>
 
                     {Description}
 
@@ -305,11 +305,11 @@
                 </div>
             </div>
 
-                        {block:SearchPage}
-                        <div id="searchresultcount">
-                            <p>Your search for <span class="query">{SearchQuery}</span> returned {SearchResultCount} result(s).</p>
-                        </div>
-                        {/block:SearchPage}
+            {block:SearchPage}
+                <div id="searchresultcount">
+                    <p>Your search for <span class="query">{SearchQuery}</span> returned {SearchResultCount} result(s).</p>
+                </div>
+            {/block:SearchPage}
 
             {block:Posts}
                 <div class="post">
@@ -388,6 +388,7 @@
                             {/block:Caption}
                         </div>
                     {/block:Video}
+
                     {block:HasTags}
                         <ul class="tags">
                             {block:Tags}
