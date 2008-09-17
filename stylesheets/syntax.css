@@ -1,0 +1,45 @@
+pre code {
+    font-family: Consolas;
+    overflow: auto;
+    display: block;
+}
+
+code .class,
+code .function,
+code .keyword {
+    font-weight: bold;
+}
+
+code .comment {
+    color: #888;
+    font-style: italic;
+}
+
+code .keyword {
+    color: #080;
+}
+
+code .string {
+    background: #fff0f0;
+    color: #d20;
+}
+
+code .symbol {
+    color: #a60;
+}
+
+code .instancevar {
+    color: #33b;
+}
+
+code .class .title {
+    color: #b06;
+}
+
+code .parent {
+    color: #036;
+}
+
+code .function .title {
+    color: #06b;
+}
